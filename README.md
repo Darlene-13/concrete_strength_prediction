@@ -1,9 +1,12 @@
 # Concrete Compressive Strength Prediction
-> Concrete compressive strength is the most important property of concrete in structural engineering. It determines whether a structure — a bridge, building, dam — is safe under load. Traditionally it's measured by crushing a concrete cylinder in a lab after 28 days of curing. That's slow and expensive.
+> Concrete compressive strength is the most important property of concrete in structural engineering. It determines whether a structure: a bridge, building, dam,  is safe under load. 
+> 
+> Traditionally it's measured by crushing a concrete cylinder in a lab after 28 days of curing. That's slow and expensive.
 >
 > The goal is to predict compressive strength (in MPa) from the mix ingredients and age — so engineers can optimize mix design without waiting 28 days for every test.
 
-````angular2html
+---
+
 | Column                | Unit  | Engineering Meaning                                                     |
 |-----------------------|-------|-------------------------------------------------------------------------|
 | Cement                | kg/m³ | Main binder — higher amounts generally increase strength               |
@@ -15,10 +18,8 @@
 | Fine Aggregate        | kg/m³ | Sand that fills voids between coarse aggregate particles               |
 | Age                   | Days  | Concrete strength increases over time (1–365 days)                     |
 | Compressive Strength  | MPa   | Target variable — the strength value to be predicted                    |
-````
 
-
-
+---
 ### Key Engineering Intuitions to Keep in Mind
 1. The Water-to-Cement (w/c) ratio is the single most important factor in concrete strength — lower w/c = stronger concrete. We'll engineer this as a feature.
 2. Age matters a lot — concrete at 3 days vs 28 days vs 90 days behaves very differently.
