@@ -50,4 +50,7 @@ def predict_strength(input_data: ConcreteInput):
         result = predict(app.state.model, input_data)
         return result
     except Exception as e:
+        print(f"Prediction error: {e}")
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))

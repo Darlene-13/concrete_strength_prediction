@@ -55,7 +55,7 @@ class PredictionOutput(BaseModel):
     Output schema for strength predictions
     """
 
-    predict_strength_mpa: float
+    predicted_strength_mpa: float
     model_version: str
     status: str
 
