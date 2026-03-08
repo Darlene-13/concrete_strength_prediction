@@ -34,6 +34,4 @@ public interface PredictionRepository
      * @return list of all prediction records, most recent first
      */
     List<PredictionRecord> findAllByOrderByCreatedAtDesc();
-
-    Optional<PredictionRecord> findById();
 }

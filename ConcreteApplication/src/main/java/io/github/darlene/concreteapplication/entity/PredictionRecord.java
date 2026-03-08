@@ -2,9 +2,9 @@ package io.github.darlene.concreteapplication.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakrta.persistence.Table;
+import jakarta.persistence.Table;
 import jakarta.persistence.GeneratedValue;
-import jakrta.persistence.Column;
+import jakarta.persistence.Column;
 import jakarta.persistence.GenerationType;
 
 import jakarta.validation.constraints.NotNull;
