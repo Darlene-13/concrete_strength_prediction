@@ -29,7 +29,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class MLPredictionResponse {
+public class MLPredictResponse {
 
     /**
      * Predicted compressive strength of the concrete mix in MPa.

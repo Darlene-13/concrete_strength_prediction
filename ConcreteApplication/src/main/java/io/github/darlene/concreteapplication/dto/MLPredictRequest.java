@@ -36,7 +36,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class MLPredictionRequest {
+public class MLPredictRequest {
 
     /**
      * Cement content in kg/m³.
