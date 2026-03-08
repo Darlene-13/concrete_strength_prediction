@@ -24,7 +24,7 @@ import java.time.LocalDateTime;
  * @author Darlene
  * @version 1.0
  */
-@Data
+@Getter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
